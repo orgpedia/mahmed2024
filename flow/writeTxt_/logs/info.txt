@@ -1,3 +1,6 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-146
-#docs: 146 #processed: 0
+147
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403131639508313.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+#docs: 147 #processed: 1
