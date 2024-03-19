@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-152
+153
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -8,120 +8,15 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403131639508313.pdf: >शासन निर्णय क्रमांक< >क्र.मानसेवी-२०२४/प्र.क्र.४६/२४/वैसेवा-२<
-	elapsed_time:202403131639508313.pdf: 0.000080
+	extract_order_number:202403191535127013.pdf: >शासन निर्णय क्रमांक्र< >वैशिवि-२०२३/प्र.क्र.२४०/प्रशा-२<
+	elapsed_time:202403191535127013.pdf: 0.000099
   exec_task: doc_translator_hf 
-    Paras: #68 Sentences: #11
-	[0]  #words: 16 #sentences: 8
-	After generate: 2 MB
-	[0]  #words: 262 #sentences: 52
+    Paras: #61 Sentences: #0
+	[0]  #words: 260 #sentences: 50
 	After generate: 3 MB
 	[1]  #words: 257 #sentences: 23
 	After generate: 3 MB
-	[2]  #words: 144 #sentences: 12
+	[2]  #words: 13 #sentences: 1
 	After generate: 3 MB
   exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403151531511113.pdf missing_cmaps: dvotsurekhmr
-  exec_task: word_recognizer 
-	Replaced 1:86 >ICU(dvotsurekhmr-cid:57)s<  >IUU S<
-  exec_task: pdftable_finder 
-	==Total:5 Errors=5 TableEmptyBodyCellError=5
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403151531511113.pdf: >शासन निर्णय क्रमांक< >वैशिवि २०२३/प्र.क्र.३२०/प्रशासन-२<
-	elapsed_time:202403151531511113.pdf: 0.000123
-  exec_task: doc_translator_hf 
-    Paras: #29 Sentences: #71
-	[0]  #words: 12 #sentences: 8
-	After generate: 3 MB
-	[0]  #words: 258 #sentences: 30
-	After generate: 3 MB
-	[1]  #words: 85 #sentences: 3
-	After generate: 3 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403151532004913.pdf missing_cmaps: dvotsurekhmr
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 12: वैशिवि २०२३/प्र.क्र.२८२/प्रशासन-२ ==शासन शुध्दीपत्रक क्रमांकः वैशिवि २०२३/प्र.क्र.२८२/प्रशासन-२
-	extract_order_number:202403151532004913.pdf: >शासन शुध्दीपत्रक क्रमांक< >वैशिवि २०२३/प्र.क्र.२८२/प्रशासन-२<
-	elapsed_time:202403151532004913.pdf: 0.000581
-  exec_task: doc_translator_hf 
-    Paras: #17 Sentences: #0
-	[0]  #words: 160 #sentences: 19
-	After generate: 5 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403151735211013.pdf missing_cmaps: bookmanoldstyle, dvotsurekhmr
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-  exec_task: pdftable_finder 
-	==Total:4 Errors=4 TableEmptyBodyCellError=4
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403151735211013.pdf: >शासन निर्णय क्रमांक< >रादंआ-११२३/प्र.क्र.१२४/अधिनियम<
-	elapsed_time:202403151735211013.pdf: 0.000104
-  exec_task: doc_translator_hf 
-    Paras: #25 Sentences: #14
-	[0]  #words: 48 #sentences: 13
-	After generate: 5 MB
-	[0]  #words: 223 #sentences: 27
-	After generate: 5 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403151943231413.pdf missing_cmaps: bookmanoldstyle, dvotsurekhmr
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403151943231413.pdf: Unable to find order
-	elapsed_time:202403151943231413.pdf: 0.000029
-  exec_task: doc_translator_hf 
-    Paras: #35 Sentences: #0
-	[0]  #words: 268 #sentences: 36
-	After generate: 5 MB
-	[1]  #words: 96 #sentences: 5
-	After generate: 5 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403161148504113.pdf missing_cmaps: bookmanoldstyle, mangal, dvotsurekhmr
-  exec_task: word_recognizer 
-	Replaced 1:213 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 2:257 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 3:204 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 4:191 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 5:18 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 6:217 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 7:237 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 8:213 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 9:112 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-	Replaced 10:244 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >‘Le O<
-  exec_task: pdftable_finder 
-	==Total:2 Errors=2 TableEmptyBodyCellError=2
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403161148504113.pdf: >शासननिर्णयक्रमांक< >एलईसी-१४२०/प्र.क्र.१६३/वैसेवा-३<
-	elapsed_time:202403161148504113.pdf: 0.000077
-  exec_task: doc_translator_hf 
-    Paras: #43 Sentences: #0
-	[0]  #words: 261 #sentences: 45
-	After generate: 5 MB
-	[1]  #words: 68 #sentences: 6
-	After generate: 5 MB
-  exec_task: text_writer 
-#docs: 152 #processed: 6
+#docs: 153 #processed: 1
