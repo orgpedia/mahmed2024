@@ -1,22 +1,3 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 153
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403191535127013.pdf: >शासन निर्णय क्रमांक्र< >वैशिवि-२०२३/प्र.क्र.२४०/प्रशा-२<
-	elapsed_time:202403191535127013.pdf: 0.000099
-  exec_task: doc_translator_hf 
-    Paras: #61 Sentences: #0
-	[0]  #words: 260 #sentences: 50
-	After generate: 3 MB
-	[1]  #words: 257 #sentences: 23
-	After generate: 3 MB
-	[2]  #words: 13 #sentences: 1
-	After generate: 3 MB
-  exec_task: text_writer 
-#docs: 153 #processed: 1
+#docs: 153 #processed: 0
